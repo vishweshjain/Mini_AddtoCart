@@ -1,4 +1,4 @@
-# 🛍️ Shopping Cart System (Vanilla JavaScript)
+# 🛍️ Mini Shopping Cart System
 
 A simple yet functional **Shopping Cart Application** built using **HTML, CSS, and Vanilla JavaScript**.  
 It allows users to **browse products, add/remove items from the cart, and calculate totals with discounts** — all dynamically handled using DOM manipulation and JavaScript functions.
@@ -29,7 +29,15 @@ Shows both gross total and net total after discount dynamically.
 Gracefully handles missing products or incorrect IDs.
 
 ---
+## 🧠 Key Learnings
 
+- DOM Manipulation using Vanilla JS  
+- Dynamic rendering without page reload  
+- Array handling and object manipulation  
+- Real-time cart updates  
+- Basic discount logic implementation  
+
+---
 ## 🧩 Tech Stack
 
 | Technology | Description |
@@ -54,4 +62,64 @@ Gracefully handles missing products or incorrect IDs.
 ┗ 📜 script.js
 ```
 ---
+
+## ⚙️ How It Works
+
+1. **Product List (`products` array):**  
+   All product details (id, name, price, image) are stored in a JavaScript array.
+
+2. **Cart (`cart` array):**  
+   Maintains items added by the user along with their quantity.
+
+3. **Functions:**
+   - `addCart(id)` → Adds a product to the cart (or increases its quantity).  
+   - `removeCart(id)` → Removes a product or decreases its quantity.  
+   - `calculate(discount)` → Calculates total bill with discount.  
+   - `renderProducts()` → Dynamically displays all products in the UI.  
+   - `renderCart()` → Dynamically updates the cart section.
+
+4. **Discount Handling:**  
+   The discount is set using a variable `discount = 20` and automatically reflected in totals.
+
+---
+
+## 🖥️ Demo Preview (Sample UI Flow)
+
+```
+Tshirt Rs.1200 [Add to Cart] [+] [-]
+Jeans Rs.1600 [Add to Cart] [+] [-]
+Shoes Rs.1200 [Add to Cart] [+] [-]
+
+
+**Cart Section**
+Tshirt Rs.1200 × 2 = Rs.2400
+Jeans Rs.1600 × 1 = Rs.1600
+
+Total: Rs.4000
+After 20% off: Rs.3200
+```
+---
+## 🛠️ Setup & Usage
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/shopping-cart-js.git
+   ```
+2. Open the project
+```bash
+  cd shopping-cart-js
+  ```
+3.Run locally
+- Just open index.html in your browser — no server setup needed!
+
+---
+## 🧑‍💻 Author
+
+Vishwesh Jain
+💼 Frontend Developer |
+
+
+
+
+
 
