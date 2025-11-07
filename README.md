@@ -42,3 +42,16 @@ Gracefully handles missing products or incorrect IDs.
 
 ## 📂 Folder Structure
 
+```
+┣ 📂 images
+┃ ┣ Product1.jpg
+┃ ┣ Product2.webp
+┃ ┣ Product3.jpeg
+┃ ┣ Product4.webp
+┃ ┗ Product5.jpeg
+┣ 📜 index.html
+┣ 📜 style.css
+┗ 📜 script.js
+```
+---
+
