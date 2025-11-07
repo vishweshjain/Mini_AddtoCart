@@ -6,8 +6,9 @@ It allows users to **browse products, add/remove items from the cart, and calcul
 ---
 
 ## 🔗 Live Demo  
-<a href="https://your-demo-link.com"> **View Demo**</a>
-
+```
+https://mini-product-cart.netlify.app/
+```
 ---
 ## 🚀 Features
 
