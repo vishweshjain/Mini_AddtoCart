@@ -115,8 +115,8 @@ After 20% off: Rs.3200
 ---
 ## 🧑‍💻 Author
 
-Vishwesh Jain
-💼 Frontend Developer |
+- Vishwesh Jain
+
 
 
 
