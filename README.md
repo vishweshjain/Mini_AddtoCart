@@ -5,6 +5,10 @@ It allows users to **browse products, add/remove items from the cart, and calcul
 
 ---
 
+## 🔗 Live Demo  
+<a href="https://your-demo-link.com"> **View Demo**</a>
+
+---
 ## 🚀 Features
 
 ✅ **Product Listing**  
@@ -99,6 +103,7 @@ Total: Rs.4000
 After 20% off: Rs.3200
 ```
 ---
+
 ## 🛠️ Setup & Usage
 
 1. **Clone the repository**
